@@ -1,9 +1,10 @@
-# Line Bot on Cloud Cuntions
+# Line Bot on Cloud Funtions
 Simple echo line bot on Google Cloud Functions
 
 ## Preparation
 - Replace `<CHANNEL ACCESS TOKEN>` in `index.js` with your token from the Line Channel settings page
 - Create GCP account and install `gcloud` cli
+- Enable `Cloud Functions API` in GCP Console
 - Repace `<YOUR-GCP-PROJECT>` in `deploy.sh` with your GCP Project ID
 - Replace `<YOUR-GCS-BUCKET>` in `deploy.sh` with your GCS Bucket
 
